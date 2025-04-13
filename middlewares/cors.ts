@@ -5,7 +5,7 @@ export const corsMiddleware = (app: Hono) => {
   app.use(
     '*',
     cors({
-      origin: ['https://recruitment.draft.ly', 'http://localhost:3000'],
+      origin: ['http://localhost:8080'],
       allowMethods: ['GET', 'HEAD', 'PUT', 'PATCH', 'POST', 'DELETE'], // Allowed HTTP methods
       credentials: false, // If you need cookies or credentials
       maxAge: 600,

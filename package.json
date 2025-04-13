@@ -20,17 +20,15 @@
     "esbuild": "^0.25.2",
     "esbuild-plugin-tailwindcss": "^2.0.1",
     "hono": "^4.6.16",
-    "lightningcss": "^1.29.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-flow-renderer": "^10.3.17",
-    "use-cannon": "^0.5.3",
-    "uuid": "^11.1.0",
-    "zod": "3.24.1",
-    "zustand": "^5.0.3"
+    "three": "^0.175.0",
+    "uuid": "^11.1.0"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^3.13.0",
+    "@types/bunyan": "^1.8.11",
     "@types/node": "^20.8.9",
     "@types/react": "^18.2.33",
     "@types/react-dom": "^18.2.14",

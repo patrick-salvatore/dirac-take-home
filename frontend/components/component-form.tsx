@@ -35,7 +35,6 @@ const AddComponentForm: React.FC<Props> = ({
     depth: 1,
   });
 
-  // Populate form on edit
   useEffect(() => {
     if (editingComponent) {
       setName(editingComponent.name);

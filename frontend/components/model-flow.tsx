@@ -77,8 +77,6 @@ const ModelFlow: React.FC<Props> = ({ model, onSelect }) => {
   const [nodes, setNodes, onNodesChange] = useNodesState(getAllNodes(model));
   const [edges, setEdges, onEdgesChange] = useEdgesState(getAllEdges(model));
 
-  console.log({ model, nodes, edges });
-
   const onConnect: OnConnect = useCallback(
     (params) => setEdges((eds) => addEdge(params, eds)),
     [setEdges],
