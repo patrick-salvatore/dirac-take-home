@@ -1,0 +1,6 @@
+{
+  "watch": ["**/*.ts"],
+  "ignore": ["node_modules", "frontend", "build.mjs", "public"],
+  "ext": "ts",
+  "exec": "tsx server.ts"
+}

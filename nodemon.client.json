@@ -1,0 +1,5 @@
+{
+  "watch": ["frontend/**/*", "build.mjs", "index.html"],
+  "ext": "js,mjs,cjs,json,tsx,ts,css",
+  "exec": "node build.cjs"
+}
